@@ -1,9 +1,9 @@
 ﻿using System.Globalization;
 using GarageApp.Entities;
-<<<<<<< HEAD
+//<<<<<<< HEAD
 using GarageApp.Services;
-=======
->>>>>>> 1f7fa443c812ee805cbdefa39976d71e5ef8a0d2
+//=======
+//>>>>>>> 1f7fa443c812ee805cbdefa39976d71e5ef8a0d2
 
 namespace GarageApp
 {
@@ -25,7 +25,7 @@ namespace GarageApp
 
             CarRental carRental = new CarRental(start, finish, new Vehicle(model));
 
-            RentalService rentalService = new(hour, day);
+            RentalService rentalService = new RentalService(hour, day, new BrazilTaxService());
 
             rentalService.ProcessInvoice(carRental);
 

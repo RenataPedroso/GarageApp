@@ -1,6 +1,7 @@
 ﻿namespace GarageApp.Services
 {
-    class BrazilTaxService
+    //interface realization, not inheritance
+    class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
