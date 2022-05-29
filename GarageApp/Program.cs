@@ -1,6 +1,9 @@
 ﻿using System.Globalization;
 using GarageApp.Entities;
+<<<<<<< HEAD
 using GarageApp.Services;
+=======
+>>>>>>> 1f7fa443c812ee805cbdefa39976d71e5ef8a0d2
 
 namespace GarageApp
 {
